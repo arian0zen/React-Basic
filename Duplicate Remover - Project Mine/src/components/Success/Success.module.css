@@ -1,0 +1,33 @@
+.success-header {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    background-color: rgba(103, 233, 136, 0.623);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.ok{
+    background-color: rgba(103, 233, 136, 0.623);
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.old{
+    color: #f06363;
+}
+
+.new{
+    color: #55ade7;
+}
+
+
+@media screen and (max-width: 768px) {
+    .success-header {
+        font-size: 0.8rem;
+    }
+}
+    

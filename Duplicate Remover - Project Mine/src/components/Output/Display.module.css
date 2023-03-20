@@ -1,0 +1,53 @@
+.original-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.356);
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+.output-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.output-card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(63, 63, 63, 0.377);
+  width: 10%;
+  padding: 30px 0 30px 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.go-back{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.356);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .output-card {
+    width: 30%;
+  }
+}
+    

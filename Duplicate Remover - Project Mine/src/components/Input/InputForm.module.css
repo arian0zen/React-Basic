@@ -1,0 +1,35 @@
+.input-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #f3dada;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #f75959f1;
+}
+
+.error-text{
+    margin-top: 10px;
+    color: #f71919f1;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

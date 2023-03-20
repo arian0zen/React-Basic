@@ -59,7 +59,7 @@ const InputForm = (props) => {
           <label>Age (Years)</label>
           <input type="text" ref={ageInputRef} />
         </div>
-        <button className="input-button">Add User</button>
+        <button type="submit" className="input-button">Add User</button>
       </form>
     </React.Fragment>
   );
